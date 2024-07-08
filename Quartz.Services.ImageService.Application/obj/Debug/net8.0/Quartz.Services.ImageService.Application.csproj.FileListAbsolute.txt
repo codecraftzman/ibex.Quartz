@@ -1,0 +1,17 @@
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Services.ImageService.Application.deps.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Services.ImageService.Application.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Services.ImageService.Application.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Services.ImageService.Domain.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Shared.Contracts.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Services.ImageService.Domain.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\bin\Debug\net8.0\Quartz.Shared.Contracts.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.csproj.AssemblyReference.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.AssemblyInfoInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.AssemblyInfo.cs
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.csproj.CoreCompileInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.S.D07E037F.Up2Date
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\refint\Quartz.Services.ImageService.Application.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\Quartz.Services.ImageService.Application.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Application\obj\Debug\net8.0\ref\Quartz.Services.ImageService.Application.dll
