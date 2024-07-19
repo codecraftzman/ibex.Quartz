@@ -8,7 +8,8 @@ namespace Quartz.Services.ImageService.Application.Features.Images.Queries.GetIm
 {
     public class ImageListVm
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; } = string.Empty;
+
         public string Title { get; set; } = string.Empty;
 
         public string FileName { get; set; } = string.Empty;

@@ -6,20 +6,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MongoDB.EntityFrameworkCore;
+using MongoDB.EntityFrameworkCore.Extensions;
+using MongoDB.Driver;
+using Quartz.Shared.Contracts;
+using MongoDB.EntityFrameworkCore.Infrastructure;
 
 namespace Quartz.Services.ImageService.Persistence
 {
-    public class ImageDbContext : DbContext//, IImageDbContext
+    public class ImageDbContext : DbContext
     {
-        public ImageDbContext(DbContextOptions<ImageDbContext> dbContextOptions): base(dbContextOptions) 
+        //public ImageDbContext(DbContextOptions<ImageDbContext> dbContextOptions): base(dbContextOptions) 
+        //{
+
+        //}
+        public ImageDbContext(IMongoClient client, IDbSettings settings) : 
+            base((new DbContextOptionsBuilder<ImageDbContext>().UseMongoDB(client, settings.DatabaseName)).Options)
         {
-            
+
         }
-        public DbSet<Image> Images { get; set; }
+        public DbSet<Image> Images => Set<Image>();
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Image>().HasData(
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Image>().ToCollection("images");
+            
+
+            /*modelBuilder.Entity<Image>().HasData(
                new Image()
                {
                    Id = new Guid("25320c5e-f58a-4b1f-b63a-8ee07a840bdf"),
@@ -118,8 +133,8 @@ namespace Quartz.Services.ImageService.Persistence
                     FileName = "fdfe7329-e05c-41fb-a7c7-4f3226d28c49.jpg",
                     OwnerId = "b7539694-97e7-4dfe-84da-b4256e1ff5c7"
                 }
-            );
-            base.OnModelCreating(modelBuilder);
+            );*/
+
         }
     }
     

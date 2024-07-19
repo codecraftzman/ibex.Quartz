@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using Microsoft.Extensions.Logging;
+using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Shared.Contracts;
 using System;
@@ -13,9 +14,9 @@ namespace Quartz.Services.ImageService.Application.Features.Images.Queries.GetIm
 {
     public class GetImageListQueryHandler: IRequestHandler<GetImageListQuery, List<ImageListVm>>
     {
-        private readonly IAsyncRepository<Image> _respository;
+        private readonly IGalleryRepository _respository;
         private readonly IMapper _mapper;
-        public GetImageListQueryHandler(IMapper mapper, IAsyncRepository<Image> respository)
+        public GetImageListQueryHandler(IMapper mapper, IGalleryRepository respository)
         {
             _mapper = mapper;
             _respository = respository;

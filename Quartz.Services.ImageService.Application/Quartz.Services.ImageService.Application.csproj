@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="13.0.1" />
+	  <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+	  <PackageReference Include="MediatR" Version="12.3.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
   </ItemGroup>
 
@@ -16,8 +19,6 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Infrastructure\" />
-    <Folder Include="Features\Images\Commands\" />
-    <Folder Include="Features\Images\Queries\" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  quartz.services.imageservice.api:
+    image: ${DOCKER_REGISTRY-}quartzservicesimageserviceapi
+    build:
+      context: .
+      dockerfile: Quartz.Services.ImageService.API\Dockerfile
+    ports:
+      - "7152:7000"
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo:latest
+    ports:
+      - "27017:27017"

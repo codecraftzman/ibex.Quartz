@@ -33,19 +33,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Shared.Contracts", "Quartz.Shared.Contracts\Quartz.Shared.Contracts.csproj", "{74BF1033-D937-4836-B395-58BD23CB1B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Services.ImageService.Application", "Quartz.Services.ImageService.Application\Quartz.Services.ImageService.Application.csproj", "{7AFB3FF8-5C61-43CA-ABE6-798359F6C646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageService.Application", "Quartz.Services.ImageService.Application\Quartz.Services.ImageService.Application.csproj", "{7AFB3FF8-5C61-43CA-ABE6-798359F6C646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Services.ImageService.Domain", "Quartz.Services.ImageService.Domain\Quartz.Services.ImageService.Domain.csproj", "{FF7AB392-E2CD-4579-9592-270C90A75490}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageService.Domain", "Quartz.Services.ImageService.Domain\Quartz.Services.ImageService.Domain.csproj", "{FF7AB392-E2CD-4579-9592-270C90A75490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Services.ImageService.Infrastructure", "Quartz.Services.ImageService.Infrastructure\Quartz.Services.ImageService.Infrastructure.csproj", "{CC4A59E6-D648-4CD4-99AD-246208A3E097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageService.Infrastructure", "Quartz.Services.ImageService.Infrastructure\Quartz.Services.ImageService.Infrastructure.csproj", "{CC4A59E6-D648-4CD4-99AD-246208A3E097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Services.ImageService.Persistence", "Quartz.Services.ImageService.Persistence\Quartz.Services.ImageService.Persistence.csproj", "{95A66CA8-392E-454F-9624-0EBFD2E8C48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageService.Persistence", "Quartz.Services.ImageService.Persistence\Quartz.Services.ImageService.Persistence.csproj", "{95A66CA8-392E-454F-9624-0EBFD2E8C48B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9CAF9B27-9CB3-4AD9-990C-787737BD5CB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8EACC375-E544-4D30-933D-71C599FB67F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{357834A6-BE2D-4AF4-8DFA-1458188F701B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageService.API", "Quartz.Services.ImageService.API\Quartz.Services.ImageService.API.csproj", "{98B7342A-0D16-4EB3-85FE-75DF81904123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{95A66CA8-392E-454F-9624-0EBFD2E8C48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A66CA8-392E-454F-9624-0EBFD2E8C48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95A66CA8-392E-454F-9624-0EBFD2E8C48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B7342A-0D16-4EB3-85FE-75DF81904123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B7342A-0D16-4EB3-85FE-75DF81904123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B7342A-0D16-4EB3-85FE-75DF81904123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B7342A-0D16-4EB3-85FE-75DF81904123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{9CAF9B27-9CB3-4AD9-990C-787737BD5CB0} = {2C9520C6-0EC1-4FC6-9893-2BC8235ABFF8}
 		{8EACC375-E544-4D30-933D-71C599FB67F5} = {2C9520C6-0EC1-4FC6-9893-2BC8235ABFF8}
 		{357834A6-BE2D-4AF4-8DFA-1458188F701B} = {2C9520C6-0EC1-4FC6-9893-2BC8235ABFF8}
+		{98B7342A-0D16-4EB3-85FE-75DF81904123} = {9CAF9B27-9CB3-4AD9-990C-787737BD5CB0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4F1C848-07C3-4417-A65C-26C87D4512AC}

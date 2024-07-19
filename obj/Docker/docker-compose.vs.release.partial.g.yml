@@ -1,0 +1,26 @@
+version: '3.4'
+
+services:
+  quartz.services.imageservice.api:
+    container_name: "Quartz.Services.ImageService.API"
+    build:
+      args:
+        BUILD_CONFIGURATION: Release
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Quartz.Services.ImageService.API"
+    volumes:
+      - C:\Users\mtsheikh\onecoremsvsmon\17.9.20122.3423:C:\remote_debugger:ro
+      - ${APPDATA}/ASP.NET/Https:C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro
+      - c:\program files\microsoft visual studio\2022\community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\win10-x64\net6.0:C:\TokenService.Proxy:ro
+      - c:\program files\microsoft visual studio\2022\community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\win10-x64\net8.0:C:\HotReloadProxy:ro
+      - c:\program files\microsoft visual studio\2022\community\Common7\IDE\CommonExtensions\Microsoft\HotReload:C:\HotReloadAgent:ro
+
+    entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /fallbackloadremotemanagedpdbs /timeout:2147483646 /LogDebuggeeOutputToStdOut
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "\"C:\\Program Files\\dotnet\\dotnet.exe\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath c:\\.nuget\\packages --additionalProbingPath c:\\.nuget\\fallbackpackages  \"C:\\app\\Quartz.Services.ImageService.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "C:\\app"
+      com.microsoft.visualstudio.debuggee.killprogram: "C:\\remote_debugger\\x64\\utils\\KillProcess.exe dotnet.exe"
+      com.microsoft.visual-studio.project-name: "Quartz.Services.ImageService.API"

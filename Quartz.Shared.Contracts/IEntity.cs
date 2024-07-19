@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quartz.Shared.Contracts
 {
-    public interface IEntity    {
-        Guid Id { get; set; }
+    public interface IEntity<T> where T : struct   {
+        T Id { get; set; }
     }
 }

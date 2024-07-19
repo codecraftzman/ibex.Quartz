@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("10211ec1-c0b3-4aa9-9803-99901602217b")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Services.ImageService.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fb0e9f6614fd5d8d21a3f6c63ffe372f556b2f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Services.ImageService.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Services.ImageService.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

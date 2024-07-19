@@ -1,4 +1,5 @@
-﻿using Quartz.Shared.Contracts;
+﻿using MongoDB.Bson;
+using Quartz.Shared.Contracts;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -10,10 +11,10 @@ namespace Quartz.Services.ImageService.Domain.Entities
 {
     public class Image : QuartzEntity
     {
-        public string Title { get; set; } = string.Empty;
+        public string Title { get; set; } = default!;
 
-        public string FileName { get; set; } = string.Empty;
+        public string FileName { get; set; } = default!;
 
-        public string OwnerId { get; set; } = string.Empty;
+        public string OwnerId { get; set; } = default!;
     }
 }

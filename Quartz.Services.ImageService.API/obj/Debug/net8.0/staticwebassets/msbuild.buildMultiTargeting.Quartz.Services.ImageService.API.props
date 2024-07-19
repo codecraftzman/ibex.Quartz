@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Quartz.Services.ImageService.API.props" />
+</Project>

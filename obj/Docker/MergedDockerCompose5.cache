@@ -1,0 +1,53 @@
+name: dockercompose4012017404366665711
+services:
+  mongodb:
+    image: mongo:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 27017
+        published: "27017"
+        protocol: tcp
+  quartz.services.imageservice.api:
+    build:
+      context: D:\1. Ibex Connect\Quartz\Code\ibex.Quartz
+      dockerfile: Quartz.Services.ImageService.API\Dockerfile
+    depends_on:
+      mongodb:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: quartzservicesimageserviceapi
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 7000
+        published: "7152"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\mtsheikh\AppData\Roaming/Microsoft/UserSecrets
+        target: C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\mtsheikh\AppData\Roaming/ASP.NET/Https
+        target: C:\Users\ContainerUser\AppData\Roaming\ASP.NET\Https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose4012017404366665711_default

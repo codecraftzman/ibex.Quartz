@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quartz.Shared.Contracts
 {
-    public class DbSettings
+    public class DbSettings: IDbSettings
     {
         public string ConnectionString { get; set; } = string.Empty;
         public string DatabaseName { get; set; } = string.Empty;

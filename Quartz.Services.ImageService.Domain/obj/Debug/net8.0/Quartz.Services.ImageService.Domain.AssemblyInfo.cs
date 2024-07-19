@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Services.ImageService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fb0e9f6614fd5d8d21a3f6c63ffe372f556b2f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Services.ImageService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Services.ImageService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

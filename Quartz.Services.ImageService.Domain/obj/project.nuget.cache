@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RHaD6OKNo4DsVaAKceoDpd51XVFAuBjMYIUqxberpW7ACC9SqSz1GtXgYwXSMjy+DzpUlSmHGfSI2ZGjRb+mHg==",
+  "dgSpecHash": "2Ik/v/qQr171ZGur34pzoHDvbOgdrS2tmdw+La/uR6kx/336gOO7hMCN6CpMSzCs8MTdELXyeADyNS35AhhvEg==",
   "success": true,
   "projectFilePath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\Quartz.Services.ImageService.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mtsheikh\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\mtsheikh\\.nuget\\packages\\easynetq\\7.8.0\\easynetq.7.8.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
@@ -24,6 +25,7 @@
     "C:\\Users\\mtsheikh\\.nuget\\packages\\mongodb.driver\\2.27.0\\mongodb.driver.2.27.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\mongodb.driver.core\\2.27.0\\mongodb.driver.core.2.27.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\mongodb.libmongocrypt\\1.10.0\\mongodb.libmongocrypt.1.10.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\snappier\\1.0.0\\snappier.1.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -31,6 +33,7 @@
     "C:\\Users\\mtsheikh\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
   ],
   "logs": []
