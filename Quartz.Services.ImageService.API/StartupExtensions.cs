@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Quartz.Services.ImageService.Application;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Services.ImageService.Persistence;
+using Quartz.Services.ImageService.Infrastructure;
 using System.Security.Claims;
 
 namespace Quartz.Services.ImageService.API
@@ -13,7 +14,7 @@ namespace Quartz.Services.ImageService.API
         {
             builder.Services.AddApplicationServices();
             builder.Services.AddPersistenceServices(builder.Configuration);
-            //builder.Services.AddInfrastructureServices(builder.Configuration);
+            builder.Services.AddInfrastructureServices(builder.Configuration);
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

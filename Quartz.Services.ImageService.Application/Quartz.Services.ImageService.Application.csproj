@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Quartz.Services.ImageService.Domain\Quartz.Services.ImageService.Domain.csproj" />
+    <ProjectReference Include="..\Quartz.Services.ImageService.Infrastructure\Quartz.Services.ImageService.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

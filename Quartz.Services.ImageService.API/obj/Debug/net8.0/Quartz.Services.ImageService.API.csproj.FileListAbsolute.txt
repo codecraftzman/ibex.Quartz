@@ -64,3 +64,6 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\FluentValidation.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Integration.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Integration.pdb

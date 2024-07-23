@@ -4,6 +4,7 @@ using MongoDB.Bson.Serialization.IdGenerators;
 using MongoDB.Bson.Serialization.Serializers;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Shared.Contracts;
+using Quartz.Shared.Integration;
 
 namespace Quartz.Services.ImageService.Persistence.Configurations
 {

@@ -12,7 +12,8 @@
           "FluentValidation.DependencyInjectionExtensions": "11.9.2",
           "MediatR": "12.3.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
-          "Quartz.Services.ImageService.Domain": "1.0.0"
+          "Quartz.Services.ImageService.Domain": "1.0.0",
+          "Quartz.Services.ImageService.Infrastructure": "1.0.0"
         },
         "runtime": {
           "Quartz.Services.ImageService.Application.dll": {}
@@ -159,6 +160,28 @@
           }
         }
       },
+      "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
@@ -209,6 +232,21 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options": "8.0.0",
+          "Microsoft.Extensions.Primitives": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.23.53103"
           }
@@ -299,6 +337,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
       "RabbitMQ.Client/6.8.1": {
         "dependencies": {
           "System.Memory": "4.5.5",
@@ -348,20 +394,41 @@
       },
       "Quartz.Services.ImageService.Domain/1.0.0": {
         "dependencies": {
-          "Quartz.Shared.Contracts": "1.0.0"
+          "Quartz.Shared.Contracts": "1.0.0",
+          "Quartz.Shared.Integration": "1.0.0"
         },
         "runtime": {
           "Quartz.Services.ImageService.Domain.dll": {}
+        }
+      },
+      "Quartz.Services.ImageService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "EasyNetQ": "7.8.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Quartz.Shared.Contracts": "1.0.0",
+          "Quartz.Shared.Integration": "1.0.0"
+        },
+        "runtime": {
+          "Quartz.Services.ImageService.Infrastructure.dll": {}
         }
       },
       "Quartz.Shared.Contracts/1.0.0": {
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
-          "MongoDB.Driver": "2.27.0"
+          "MongoDB.Driver": "2.27.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Quartz.Shared.Contracts.dll": {}
+        }
+      },
+      "Quartz.Shared.Integration/1.0.0": {
+        "dependencies": {
+          "Quartz.Shared.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Quartz.Shared.Integration.dll": {}
         }
       }
     }
@@ -470,6 +537,20 @@
       "path": "microsoft.extensions.caching.memory/8.0.0",
       "hashPath": "microsoft.extensions.caching.memory.8.0.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Configuration.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3lE/iLSutpgX1CC0NOW70FJoGARRHbyKmG7dc0klnUZ9Dd9hS6N/POPWhKhMLCEuNN5nXEY5agmlFtH562vqhQ==",
+      "path": "microsoft.extensions.configuration.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mBMoXLsr5s1y2zOHWmKsE9veDcx8h1x/c3rz4baEdQKTeDcmQAPNbB54Pi/lhFO3K431eEq6PFbMgLaa6PHFfA==",
+      "path": "microsoft.extensions.configuration.binder/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -504,6 +585,13 @@
       "sha512": "sha512-JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
       "path": "microsoft.extensions.options/8.0.0",
       "hashPath": "microsoft.extensions.options.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f4DMRqEd50zQh+UyJc+/HiBsZ3vhAQALgdkcQEalSH1L2isdC7Yj54M3cyo5e+BeO5fcBQ7Dxly8XiBBcvRgw==",
+      "path": "microsoft.extensions.options.configurationextensions/8.0.0",
+      "hashPath": "microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/8.0.0": {
       "type": "package",
@@ -553,6 +641,13 @@
       "sha512": "sha512-2toxrngTVcb5PhQJMPlsxxnG97XJ+28WyBeW1Wfh2X+LOFbKabJDJJuWwipB9wLIb5VmqXEPWl6zYVvEW1cdAA==",
       "path": "mongodb.libmongocrypt/1.10.0",
       "hashPath": "mongodb.libmongocrypt.1.10.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "RabbitMQ.Client/6.8.1": {
       "type": "package",
@@ -629,7 +724,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Quartz.Services.ImageService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Quartz.Shared.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Quartz.Shared.Integration/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

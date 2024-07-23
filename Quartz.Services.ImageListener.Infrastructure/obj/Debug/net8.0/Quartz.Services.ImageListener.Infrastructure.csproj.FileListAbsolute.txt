@@ -1,0 +1,16 @@
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\bin\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.deps.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\bin\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\bin\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\bin\Debug\net8.0\Quartz.Shared.Contracts.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\bin\Debug\net8.0\Quartz.Shared.Contracts.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.csproj.AssemblyReference.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.AssemblyInfoInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.AssemblyInfo.cs
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.csproj.CoreCompileInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.sourcelink.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.S.B6DFEF8B.Up2Date
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\refint\Quartz.Services.ImageListener.Infrastructure.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Infrastructure\obj\Debug\net8.0\ref\Quartz.Services.ImageListener.Infrastructure.dll

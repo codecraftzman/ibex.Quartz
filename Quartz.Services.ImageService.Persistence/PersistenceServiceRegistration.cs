@@ -6,6 +6,7 @@ using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Persistence.Configurations;
 using Quartz.Services.ImageService.Persistence.Repositories;
 using Quartz.Shared.Contracts;
+using Quartz.Shared.Integration;
 using System;
 using System.Collections.Generic;
 using System.Linq;

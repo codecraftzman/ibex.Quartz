@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj",
         "projectName": "Quartz.Shared.Contracts",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,6 +61,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.27.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Shared.Contracts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fb0e9f6614fd5d8d21a3f6c63ffe372f556b2f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+730fe20eb5716ef0df59ee74d2aec009e39fd2b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Shared.Contracts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Shared.Contracts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

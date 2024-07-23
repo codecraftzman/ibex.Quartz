@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Quartz.Shared.Contracts\Quartz.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Integration\Quartz.Shared.Integration.csproj" />
   </ItemGroup>
 
   <ItemGroup>

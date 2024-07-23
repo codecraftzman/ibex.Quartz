@@ -10,14 +10,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.API\\Quartz.Services.ImageService.API.csproj",
         "projectName": "Quartz.Services.ImageService.API",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.API\\Quartz.Services.ImageService.API.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,14 +109,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Application\\Quartz.Services.ImageService.Application.csproj",
         "projectName": "Quartz.Services.ImageService.Application",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Application\\Quartz.Services.ImageService.Application.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -134,6 +134,9 @@
             "projectReferences": {
               "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\Quartz.Services.ImageService.Domain.csproj": {
                 "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\Quartz.Services.ImageService.Domain.csproj"
+              },
+              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\Quartz.Services.ImageService.Infrastructure.csproj": {
+                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\Quartz.Services.ImageService.Infrastructure.csproj"
               }
             }
           }
@@ -196,14 +199,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\Quartz.Services.ImageService.Domain.csproj",
         "projectName": "Quartz.Services.ImageService.Domain",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\Quartz.Services.ImageService.Domain.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -221,6 +224,9 @@
             "projectReferences": {
               "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj": {
                 "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj"
+              },
+              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
+                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj"
               }
             }
           }
@@ -265,14 +271,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\Quartz.Services.ImageService.Infrastructure.csproj",
         "projectName": "Quartz.Services.ImageService.Infrastructure",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\Quartz.Services.ImageService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -290,6 +296,9 @@
             "projectReferences": {
               "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj": {
                 "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj"
+              },
+              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
+                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj"
               }
             }
           }
@@ -309,6 +318,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[7.8.0, )"
+            },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -340,14 +353,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Persistence\\Quartz.Services.ImageService.Persistence.csproj",
         "projectName": "Quartz.Services.ImageService.Persistence",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Persistence\\Quartz.Services.ImageService.Persistence.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -427,14 +440,14 @@
         "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj",
         "projectName": "Quartz.Shared.Contracts",
         "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj",
-        "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -478,8 +491,81 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.27.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj",
+        "projectName": "Quartz.Shared.Integration",
+        "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
+        "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj": {
+                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

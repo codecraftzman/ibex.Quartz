@@ -446,6 +446,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "RabbitMQ.Client/6.8.1": {
         "type": "package",
         "dependencies": {
@@ -593,13 +606,27 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
-          "MongoDB.Driver": "2.27.0"
+          "MongoDB.Driver": "2.27.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Quartz.Shared.Contracts.dll": {}
         },
         "runtime": {
           "bin/placeholder/Quartz.Shared.Contracts.dll": {}
+        }
+      },
+      "Quartz.Shared.Integration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Quartz.Shared.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Quartz.Shared.Integration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Quartz.Shared.Integration.dll": {}
         }
       }
     }
@@ -1294,6 +1321,36 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "RabbitMQ.Client/6.8.1": {
       "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
       "type": "package",
@@ -1586,16 +1643,23 @@
       "type": "project",
       "path": "../Quartz.Shared.Contracts/Quartz.Shared.Contracts.csproj",
       "msbuildProject": "../Quartz.Shared.Contracts/Quartz.Shared.Contracts.csproj"
+    },
+    "Quartz.Shared.Integration/1.0.0": {
+      "type": "project",
+      "path": "../Quartz.Shared.Integration/Quartz.Shared.Integration.csproj",
+      "msbuildProject": "../Quartz.Shared.Integration/Quartz.Shared.Integration.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EasyNetQ >= 7.8.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 8.0.0",
-      "Quartz.Shared.Contracts >= 1.0.0"
+      "Quartz.Shared.Contracts >= 1.0.0",
+      "Quartz.Shared.Integration >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mtsheikh\\.nuget\\packages\\": {},
+    "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -1604,14 +1668,14 @@
       "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\Quartz.Services.ImageService.Infrastructure.csproj",
       "projectName": "Quartz.Services.ImageService.Infrastructure",
       "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\Quartz.Services.ImageService.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\mtsheikh\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
       "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mtsheikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1629,6 +1693,9 @@
           "projectReferences": {
             "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj": {
               "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Contracts\\Quartz.Shared.Contracts.csproj"
+            },
+            "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
+              "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj"
             }
           }
         }
@@ -1648,6 +1715,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "EasyNetQ": {
+            "target": "Package",
+            "version": "[7.8.0, )"
+          },
           "Microsoft.Extensions.Options.ConfigurationExtensions": {
             "target": "Package",
             "version": "[8.0.0, )"

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Quartz.Services.ImageListener.Worker-9dec806d-878d-44a0-a923-79ded6ede0bd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="7.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Quartz.Services.ImageListener.Infrastructure\Quartz.Services.ImageListener.Infrastructure.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Contracts\Quartz.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Integration\Quartz.Shared.Integration.csproj" />
+  </ItemGroup>
+</Project>

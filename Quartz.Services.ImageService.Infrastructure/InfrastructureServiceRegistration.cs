@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
+using EasyNetQ;
 using Microsoft.Extensions.DependencyInjection;
-using Quartz.Shared.Contracts; // Ensure this using directive is correct based on your project structure
+using Quartz.Shared; // Ensure this using directive is correct based on your project structure
 using System;
+using Quartz.Shared.Integration;
 
 namespace Quartz.Services.ImageService.Infrastructure
 {
@@ -10,7 +12,7 @@ namespace Quartz.Services.ImageService.Infrastructure
         public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
         {
             // Extract RabbitMQ configuration from appsettings.json
-            var rabbitMQConfig = configuration.GetSection("RabbitMQ").Get<RabbitMQOptions>();
+            var rabbitMQConfig = configuration.GetSection("RabbitMQ").Get<RabbitMQConfig>();
 
             // Check if the configuration is valid (not null)
             if (rabbitMQConfig == null || string.IsNullOrWhiteSpace(rabbitMQConfig.ConnectionString))
@@ -19,16 +21,15 @@ namespace Quartz.Services.ImageService.Infrastructure
             }
 
             // Register MessageBusService with the extracted configuration
-            services.AddSingleton<IMessageBusService>(provider =>
-                new MessageBusService(rabbitMQConfig.ConnectionString));
+
+            //services.AddEasyNetQ(rabbitMQConfig.ConnectionString);
+            //services.AddSingleton<IMessageBusService>(provider =>
+            //    new MessageBusService(rabbitMQConfig.ConnectionString));
+            services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQConfig.ConnectionString));
 
             return services;
         }
     }
 
-    // Define a class to bind the RabbitMQ configuration section
-    public class RabbitMQOptions
-    {
-        public string ConnectionString { get; set; } = string.Empty;
-    }
+    
 }

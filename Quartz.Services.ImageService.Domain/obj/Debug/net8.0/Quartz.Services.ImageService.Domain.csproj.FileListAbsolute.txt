@@ -14,3 +14,5 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Domain\o
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Domain\obj\Debug\net8.0\Quartz.Services.ImageService.Domain.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Domain\obj\Debug\net8.0\ref\Quartz.Services.ImageService.Domain.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Domain\obj\Debug\net8.0\Quartz.Services.ImageService.Domain.sourcelink.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Domain\bin\Debug\net8.0\Quartz.Shared.Integration.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Domain\bin\Debug\net8.0\Quartz.Shared.Integration.pdb

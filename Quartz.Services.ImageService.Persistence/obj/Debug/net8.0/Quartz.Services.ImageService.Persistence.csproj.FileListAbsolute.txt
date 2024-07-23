@@ -18,3 +18,7 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persiste
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\obj\Debug\net8.0\refint\Quartz.Services.ImageService.Persistence.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\obj\Debug\net8.0\Quartz.Services.ImageService.Persistence.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\obj\Debug\net8.0\ref\Quartz.Services.ImageService.Persistence.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\bin\Debug\net8.0\Quartz.Services.ImageService.Infrastructure.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\bin\Debug\net8.0\Quartz.Services.ImageService.Infrastructure.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\bin\Debug\net8.0\Quartz.Shared.Integration.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.Persistence\bin\Debug\net8.0\Quartz.Shared.Integration.pdb
