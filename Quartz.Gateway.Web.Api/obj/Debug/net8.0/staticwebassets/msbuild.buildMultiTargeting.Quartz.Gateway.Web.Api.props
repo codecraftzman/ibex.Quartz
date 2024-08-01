@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Quartz.Gateway.Web.Api.props" />
+</Project>

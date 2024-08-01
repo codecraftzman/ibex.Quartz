@@ -16,8 +16,4 @@
     <ProjectReference Include="..\Quartz.Shared.Integration\Quartz.Shared.Integration.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Messaging\" />
-  </ItemGroup>
-
 </Project>

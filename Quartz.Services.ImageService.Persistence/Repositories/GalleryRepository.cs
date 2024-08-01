@@ -2,7 +2,7 @@
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Shared.Contracts;
-using Quartz.Shared.Integration;
+using Quartz.Shared.Integration.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;

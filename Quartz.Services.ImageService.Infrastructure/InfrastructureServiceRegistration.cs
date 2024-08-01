@@ -3,7 +3,8 @@ using EasyNetQ;
 using Microsoft.Extensions.DependencyInjection;
 using Quartz.Shared; // Ensure this using directive is correct based on your project structure
 using System;
-using Quartz.Shared.Integration;
+using EasyNetQ.DI;
+using Quartz.Shared.Integration.Events;
 
 namespace Quartz.Services.ImageService.Infrastructure
 {
@@ -21,10 +22,6 @@ namespace Quartz.Services.ImageService.Infrastructure
             }
 
             // Register MessageBusService with the extracted configuration
-
-            //services.AddEasyNetQ(rabbitMQConfig.ConnectionString);
-            //services.AddSingleton<IMessageBusService>(provider =>
-            //    new MessageBusService(rabbitMQConfig.ConnectionString));
             services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQConfig.ConnectionString));
 
             return services;

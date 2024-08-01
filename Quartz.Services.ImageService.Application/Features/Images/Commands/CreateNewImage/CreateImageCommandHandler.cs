@@ -5,7 +5,8 @@ using MediatR;
 using Microsoft.Extensions.Configuration;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
-using Quartz.Shared.Contracts;
+using Quartz.Shared.Contracts.Events;
+using Quartz.Shared.Integration.Events.Image;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -67,7 +68,7 @@ namespace Quartz.Services.ImageService.Application.Features.Images.Commands.Crea
                 await _imageRepository.AddAsync(image);
 
                 // Prepare the ImageCreatedEvent
-                var imageCreatedEvent = new ImageCreatedEvent_old
+                var imageCreatedEvent = new ImageCreatedEvent
                 {
                     ImageId = image.Id.ToString(), // Assuming Id is a property of Image and is set by the repository upon saving
                     Name = image.Title, // Assuming you want to use the Title as the Name in the event
@@ -83,7 +84,7 @@ namespace Quartz.Services.ImageService.Application.Features.Images.Commands.Crea
                 //    await bus.PubSub.PublishAsync(imageCreatedEvent);
                 //}
 
-                await _bus.PubSub.PublishAsync<IQuartzMessage>(imageCreatedEvent, cfg => cfg.WithTopic("image.local"));
+                await _bus.PubSub.PublishAsync<IQuartzIntegrationEvent>(imageCreatedEvent, cfg => cfg.WithTopic("image.local"));
             }
         }
     }

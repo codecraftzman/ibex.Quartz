@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HAWuv4iWUIVscxIiSnnebmnQyvNIIF5rU8jpgDhoI8k=",
+  "Source": "Quartz.Gateway.Web.Api",
+  "BasePath": "_content/Quartz.Gateway.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

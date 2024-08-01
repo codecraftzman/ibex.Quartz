@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Quartz.Services.ImageListener.Worker
+﻿namespace Quartz.Services.ImageListener.Worker
 {
     using EasyNetQ;
     using Microsoft.Extensions.Hosting;
     using Microsoft.Extensions.Logging;
-    using Quartz.Shared.Contracts;
+    using Quartz.Shared.Contracts.Events;
+    using Quartz.Shared.Integration.Events.Image;
     using System;
     using System.Threading;
     using System.Threading.Tasks;
@@ -46,14 +41,14 @@ namespace Quartz.Services.ImageListener.Worker
             //}
 
 
-            _bus.PubSub.SubscribeAsync<IQuartzMessage>("imageConsumer", HandleImageCreatedEvent, cfg => cfg.WithTopic("image.local"));
+            _bus.PubSub.SubscribeAsync<IQuartzIntegrationEvent>("imageConsumer", HandleImageCreatedEvent, cfg => cfg.WithTopic("image.local"));
             return Task.CompletedTask;
         }
 
-        private void HandleImageCreatedEvent(IQuartzMessage imageCreatedEvent)
+        private void HandleImageCreatedEvent(IQuartzIntegrationEvent imageCreatedEvent)
         {
             // Process the incoming message
-            if (imageCreatedEvent is ImageCreatedEvent_old createdEvent)
+            if (imageCreatedEvent is ImageCreatedEvent createdEvent)
             {
                 _logger.LogInformation($"Received image created event: {createdEvent.Name}, ID: {createdEvent.ImageId}");
             }

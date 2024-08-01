@@ -10,7 +10,6 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "Quartz.Services.ImageListener.Infrastructure": "1.0.0",
           "Quartz.Shared.Contracts": "1.0.0",
           "Quartz.Shared.Integration": "1.0.0"
         },
@@ -632,14 +631,6 @@
           }
         }
       },
-      "Quartz.Services.ImageListener.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Quartz.Shared.Contracts": "1.0.0"
-        },
-        "runtime": {
-          "Quartz.Services.ImageListener.Infrastructure.dll": {}
-        }
-      },
       "Quartz.Shared.Contracts/1.0.0": {
         "dependencies": {
           "EasyNetQ": "7.8.0",
@@ -1065,11 +1056,6 @@
       "sha512": "sha512-U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
-    },
-    "Quartz.Services.ImageListener.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Quartz.Shared.Contracts/1.0.0": {
       "type": "project",

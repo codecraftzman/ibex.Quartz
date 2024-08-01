@@ -1,7 +1,7 @@
 using EasyNetQ;
 using Quartz.Services.ImageListener.Worker;
 using Quartz.Shared.Contracts;
-using Quartz.Shared.Integration;
+using Quartz.Shared.Integration.Events;
 
 var builder = Host.CreateApplicationBuilder(args);
 

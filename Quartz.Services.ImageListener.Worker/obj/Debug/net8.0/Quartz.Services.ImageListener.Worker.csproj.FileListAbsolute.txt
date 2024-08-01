@@ -54,9 +54,7 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\runtimes\win\native\mongocrypt.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Quartz.Shared.Contracts.dll
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Quartz.Services.ImageListener.Infrastructure.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Quartz.Shared.Contracts.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\obj\Debug\net8.0\Quartz.Services.ImageListener.Worker.csproj.AssemblyReference.cache
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\obj\Debug\net8.0\Quartz.Services.ImageListener.Worker.GeneratedMSBuildEditorConfig.editorconfig

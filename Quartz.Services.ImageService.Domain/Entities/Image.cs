@@ -1,5 +1,5 @@
 ﻿using MongoDB.Bson;
-using Quartz.Shared.Integration;
+using Quartz.Shared.Integration.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

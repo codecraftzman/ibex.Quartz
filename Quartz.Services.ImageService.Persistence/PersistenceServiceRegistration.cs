@@ -5,8 +5,8 @@ using MongoDB.Driver;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Persistence.Configurations;
 using Quartz.Services.ImageService.Persistence.Repositories;
-using Quartz.Shared.Contracts;
-using Quartz.Shared.Integration;
+using Quartz.Shared.Contracts.Repositories;
+using Quartz.Shared.Integration.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +25,7 @@ namespace Quartz.Services.ImageService.Persistence
 
 
             // Register App settings
-            var mongoDbSettings = configuration.GetSection("DbSettings").Get<DbSettings>();
+            var mongoDbSettings = configuration.GetSection("DbSettings").Get<QuartzDbSettings>();
 
             // Check if the configuration is valid (not null)
             if (mongoDbSettings == null || string.IsNullOrWhiteSpace(mongoDbSettings.ConnectionString))

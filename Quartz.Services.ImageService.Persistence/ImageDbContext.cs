@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using MongoDB.EntityFrameworkCore;
 using MongoDB.EntityFrameworkCore.Extensions;
 using MongoDB.Driver;
-using Quartz.Shared.Contracts;
 using MongoDB.EntityFrameworkCore.Infrastructure;
+using Quartz.Shared.Contracts.Repositories;
 
 namespace Quartz.Services.ImageService.Persistence
 {

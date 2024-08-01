@@ -57,11 +57,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageListen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{72B158E7-BEAC-4A74-AC7A-11572D8639B6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageListener.Infrastructure", "Quartz.Services.ImageListener.Infrastructure\Quartz.Services.ImageListener.Infrastructure.csproj", "{7624A85E-B35F-4CF7-B3D1-81491DEC390D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{1F684AF2-FFC5-4665-B752-50E568D3254C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Shared.Integration", "Quartz.Shared.Integration\Quartz.Shared.Integration.csproj", "{3A67F1C5-5FB5-412A-874B-272F3ED852D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Shared.Integration", "Quartz.Shared.Integration\Quartz.Shared.Integration.csproj", "{3A67F1C5-5FB5-412A-874B-272F3ED852D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Gateway.Web.Api", "Quartz.Gateway.Web.Api\Quartz.Gateway.Web.Api.csproj", "{7215FA1A-3B44-4542-8A46-644F32114DCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,14 +97,14 @@ Global
 		{6F202A44-B589-4581-BECA-9739DFDF8897}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F202A44-B589-4581-BECA-9739DFDF8897}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F202A44-B589-4581-BECA-9739DFDF8897}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7624A85E-B35F-4CF7-B3D1-81491DEC390D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7624A85E-B35F-4CF7-B3D1-81491DEC390D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7624A85E-B35F-4CF7-B3D1-81491DEC390D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7624A85E-B35F-4CF7-B3D1-81491DEC390D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A67F1C5-5FB5-412A-874B-272F3ED852D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3A67F1C5-5FB5-412A-874B-272F3ED852D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A67F1C5-5FB5-412A-874B-272F3ED852D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A67F1C5-5FB5-412A-874B-272F3ED852D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,9 +136,9 @@ Global
 		{D06F2614-98D9-4751-8D6E-9B4F4213B4AE} = {2A727294-6627-4B00-8AA6-5387F18028DB}
 		{6F202A44-B589-4581-BECA-9739DFDF8897} = {D06F2614-98D9-4751-8D6E-9B4F4213B4AE}
 		{72B158E7-BEAC-4A74-AC7A-11572D8639B6} = {2A727294-6627-4B00-8AA6-5387F18028DB}
-		{7624A85E-B35F-4CF7-B3D1-81491DEC390D} = {72B158E7-BEAC-4A74-AC7A-11572D8639B6}
 		{1F684AF2-FFC5-4665-B752-50E568D3254C} = {B66C531B-C1B6-464D-A947-045DEA6FD0B8}
 		{3A67F1C5-5FB5-412A-874B-272F3ED852D2} = {1F684AF2-FFC5-4665-B752-50E568D3254C}
+		{7215FA1A-3B44-4542-8A46-644F32114DCF} = {699C7E67-4598-4F8E-BC0C-FE1FFD21FCA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4F1C848-07C3-4417-A65C-26C87D4512AC}
