@@ -6,8 +6,8 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.AssemblyInfoInputs.cache
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.AssemblyInfo.cs
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.csproj.CoreCompileInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.sourcelink.json
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\refint\Quartz.Shared.Contracts.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\ref\Quartz.Shared.Contracts.dll
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Contracts\obj\Debug\net8.0\Quartz.Shared.Contracts.sourcelink.json

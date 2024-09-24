@@ -5,6 +5,9 @@ using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Services.ImageService.Persistence;
 using Quartz.Services.ImageService.Infrastructure;
 using System.Security.Claims;
+using Serilog;
+using Quartz.Shared.Middlewares;
+using Serilog.Exceptions;
 
 namespace Quartz.Services.ImageService.API
 {
@@ -12,11 +15,25 @@ namespace Quartz.Services.ImageService.API
     {
         public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
         {
+            //Log.Logger = new LoggerConfiguration()
+            //    .ReadFrom.Configuration(builder.Configuration)
+            //    .Enrich.FromLogContext()
+            //    .WriteTo.Seq("http://localhost:5341")
+            //    .CreateLogger();
+
+            builder.Host.UseSerilog((context, loggerConfig) => { 
+                loggerConfig.WriteTo.Console()
+                .Enrich.WithExceptionDetails()
+                .WriteTo.Seq("http://localhost:5341");
+
+            });
+
             builder.Services.AddApplicationServices();
             builder.Services.AddPersistenceServices(builder.Configuration);
             builder.Services.AddInfrastructureServices(builder.Configuration);
 
             builder.Services.AddControllers();
+            
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
@@ -44,6 +61,8 @@ namespace Quartz.Services.ImageService.API
             }
 
             //app.UseCustomExceptionHandler();
+            app.UseMiddleware<CorrelationIdMiddleware>();
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
 
             app.UseHttpsRedirection();
 
@@ -172,6 +191,7 @@ namespace Quartz.Services.ImageService.API
             catch (Exception)
             {
                 //new Logger<object>().LogError(ex, "An error occurred while migrating or seeding the database.");
+                throw;
             }
         }
     }

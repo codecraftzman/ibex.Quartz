@@ -63,6 +63,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Shared.Integration",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Gateway.Web.Api", "Quartz.Gateway.Web.Api\Quartz.Gateway.Web.Api.csproj", "{7215FA1A-3B44-4542-8A46-644F32114DCF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Presentation.Web", "Quartz.Presentation.Web\Quartz.Presentation.Web\Quartz.Presentation.Web.csproj", "{3C47E4FF-2F45-4FFF-8140-B1573012B172}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Presentation.Web.Client", "Quartz.Presentation.Web\Quartz.Presentation.Web.Client\Quartz.Presentation.Web.Client.csproj", "{B15FE48D-FCDF-464D-BE2C-2AD115168567}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middlewares", "Middlewares", "{F5299E85-BC5F-4634-89F5-651CA9579B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Shared.Middlewares", "Quartz.Shared.Middlewares\Quartz.Shared.Middlewares.csproj", "{8163EC66-E089-4235-BC21-A45FEFF047E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +113,18 @@ Global
 		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7215FA1A-3B44-4542-8A46-644F32114DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C47E4FF-2F45-4FFF-8140-B1573012B172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C47E4FF-2F45-4FFF-8140-B1573012B172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C47E4FF-2F45-4FFF-8140-B1573012B172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C47E4FF-2F45-4FFF-8140-B1573012B172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15FE48D-FCDF-464D-BE2C-2AD115168567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15FE48D-FCDF-464D-BE2C-2AD115168567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15FE48D-FCDF-464D-BE2C-2AD115168567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15FE48D-FCDF-464D-BE2C-2AD115168567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8163EC66-E089-4235-BC21-A45FEFF047E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8163EC66-E089-4235-BC21-A45FEFF047E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8163EC66-E089-4235-BC21-A45FEFF047E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8163EC66-E089-4235-BC21-A45FEFF047E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -139,6 +159,10 @@ Global
 		{1F684AF2-FFC5-4665-B752-50E568D3254C} = {B66C531B-C1B6-464D-A947-045DEA6FD0B8}
 		{3A67F1C5-5FB5-412A-874B-272F3ED852D2} = {1F684AF2-FFC5-4665-B752-50E568D3254C}
 		{7215FA1A-3B44-4542-8A46-644F32114DCF} = {699C7E67-4598-4F8E-BC0C-FE1FFD21FCA4}
+		{3C47E4FF-2F45-4FFF-8140-B1573012B172} = {2ABA251C-9630-49AC-9C83-A866A73717C4}
+		{B15FE48D-FCDF-464D-BE2C-2AD115168567} = {2ABA251C-9630-49AC-9C83-A866A73717C4}
+		{F5299E85-BC5F-4634-89F5-651CA9579B7E} = {B66C531B-C1B6-464D-A947-045DEA6FD0B8}
+		{8163EC66-E089-4235-BC21-A45FEFF047E7} = {F5299E85-BC5F-4634-89F5-651CA9579B7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4F1C848-07C3-4417-A65C-26C87D4512AC}

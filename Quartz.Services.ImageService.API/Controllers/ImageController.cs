@@ -35,6 +35,13 @@ namespace Quartz.Services.ImageService.API.Controllers
             return Ok();
         }
 
+        // POST: api/<ImageController>
+        [HttpPut(Name = "UpdateImage")]
+        public async Task<ActionResult> UpdateImage(string val)
+        {
+            throw new InvalidOperationException("Not implemented");
+        }
+
 
 
     }

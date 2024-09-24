@@ -1,0 +1,13 @@
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\bin\Debug\net8.0\Quartz.Shared.Middlewares.deps.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\bin\Debug\net8.0\Quartz.Shared.Middlewares.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\bin\Debug\net8.0\Quartz.Shared.Middlewares.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.csproj.AssemblyReference.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.AssemblyInfoInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.AssemblyInfo.cs
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.csproj.CoreCompileInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.sourcelink.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\refint\Quartz.Shared.Middlewares.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\Quartz.Shared.Middlewares.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Middlewares\obj\Debug\net8.0\ref\Quartz.Shared.Middlewares.dll

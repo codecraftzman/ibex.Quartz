@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Presentation.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02313b15f8936cb11a524c6f2dc55feb545e1101")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbac0f23508d3cdf4411f739a35cd83fa181844e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Presentation.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Presentation.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

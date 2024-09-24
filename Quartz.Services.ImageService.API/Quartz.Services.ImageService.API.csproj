@@ -12,6 +12,9 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.3.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.2" />
+    <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+    <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.6.2" />
   </ItemGroup>
@@ -21,6 +24,7 @@
     <ProjectReference Include="..\Quartz.Services.ImageService.Domain\Quartz.Services.ImageService.Domain.csproj" />
     <ProjectReference Include="..\Quartz.Services.ImageService.Infrastructure\Quartz.Services.ImageService.Infrastructure.csproj" />
     <ProjectReference Include="..\Quartz.Services.ImageService.Persistence\Quartz.Services.ImageService.Persistence.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Middlewares\Quartz.Shared.Middlewares.csproj" />
   </ItemGroup>
 
 </Project>
