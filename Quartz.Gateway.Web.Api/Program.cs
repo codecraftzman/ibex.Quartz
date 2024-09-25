@@ -1,8 +1,18 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
+using Quartz.Shared.Middlewares;
+using Serilog;
+using Serilog.Exceptions;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Host.UseSerilog((context, loggerConfig) => {
+    loggerConfig.WriteTo.Console()
+    .Enrich.WithExceptionDetails()
+    .WriteTo.Seq("http://localhost:5341");
+
+});
 // Add services to the container.
 
 //builder.Services.AddControllers();
@@ -22,6 +32,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseDeveloperExceptionPage();
 }
+
+app.UseMiddleware<CorrelationIdMiddleware>();
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
 
 app.UseHttpsRedirection();
 

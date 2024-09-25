@@ -39,7 +39,7 @@ namespace Quartz.Services.ImageService.API.Controllers
         [HttpPut(Name = "UpdateImage")]
         public async Task<ActionResult> UpdateImage(string val)
         {
-            throw new InvalidOperationException("Not implemented");
+            throw new ArgumentException("Not implemented for the given argument");
         }
 
 

@@ -5,7 +5,23 @@ using Quartz.Shared.Contracts;
 using Quartz.Shared.Integration.Events;
 using Serilog.Exceptions;
 
-var builder = Host.CreateApplicationBuilder(args);
+
+var builder = Host.CreateDefaultBuilder(args)
+    .ConfigureServices((context, services) =>
+    {
+        services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(context.Configuration.GetSection("RabbitMQ")
+            .Get<RabbitMQConfig>()!.ConnectionString));
+        services.AddHostedService<ImageConsumerService>();
+    })
+    .UseSerilog((context, loggerConfig) =>
+    {
+        loggerConfig.WriteTo.Console()
+    .Enrich.WithExceptionDetails()
+    .WriteTo.Seq("http://localhost:5341");
+
+    });
+
+//var builder = Host.CreateApplicationBuilder(args);
 
 
 //Log.Logger = new LoggerConfiguration()
@@ -15,19 +31,19 @@ var builder = Host.CreateApplicationBuilder(args);
 //    .CreateLogger();
 
 
-Host.CreateDefaultBuilder(args)
-    .ConfigureLogging(logging =>
-    {
-        logging.ClearProviders();
-        logging.AddSerilog();
-    })
-    .UseSerilog((context, loggerConfig) =>
-    {
-        loggerConfig.WriteTo.Seq("http://localhost:5341")
-        .Enrich.WithExceptionDetails();
+//Host.CreateDefaultBuilder(args)
+//    .ConfigureLogging(logging =>
+//    {
+//        logging.ClearProviders();
+//        logging.AddSerilog();
+//    })
+//    .UseSerilog((context, loggerConfig) =>
+//    {
+//        loggerConfig.WriteTo.Seq("http://localhost:5341")
+//        .Enrich.WithExceptionDetails();
 
-    });
-    
+//    });
+
 
 //builder.Logging.AddSerilog(new LoggerConfiguration()
 //    .ReadFrom.Configuration(builder.Configuration)
@@ -37,12 +53,11 @@ Host.CreateDefaultBuilder(args)
 //    .CreateLogger());
 
 // Configure your message bus connection
-var rabbitMQ = builder.Configuration.GetSection("RabbitMQ").Get<RabbitMQConfig>();
-//builder.Services.AddSingleton<IMessageBusService>(_ => new MessageBusService(rabbitMQ!.ConnectionString));
-builder.Services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQ!.ConnectionString));
-builder.Services.AddHostedService<ImageConsumerService>();
 
-//builder.Services.AddHostedService<Worker>();
+//var rabbitMQ = builder.Configuration.GetSection("RabbitMQ").Get<RabbitMQConfig>();
+//builder.Services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQ!.ConnectionString));
+//builder.Services.AddHostedService<ImageConsumerService>();
+
 
 var host = builder.Build();
 host.Run();

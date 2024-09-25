@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Quartz.Shared.Middlewares
 {
-    
+
     public class CorrelationIdMiddleware
     {
         private const string CorrelationIdHeader = "X-Correlation-ID";
@@ -25,7 +25,10 @@ namespace Quartz.Shared.Middlewares
 
             context.Response.OnStarting(() =>
             {
-                context.Response.Headers.Add(CorrelationIdHeader, correlationId);
+                if (!context.Request.Headers.Keys.Contains(CorrelationIdHeader))
+                {
+                    context.Response.Headers.Add(CorrelationIdHeader, correlationId);
+                }
                 return Task.CompletedTask;
             });
 

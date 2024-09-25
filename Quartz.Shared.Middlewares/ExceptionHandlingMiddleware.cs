@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
+using System.Diagnostics;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -47,7 +48,14 @@ namespace Quartz.Shared.Middlewares
             {
                 Status = (int)context.Response.StatusCode,
                 Title = "An error occurred while processing your request.",
-                Detail = exception.Message
+                Detail = exception.Message,
+                Instance = context.Request.Path,
+                Extensions =
+                {
+                    ["traceId"] = Activity.Current?.Id ?? context.TraceIdentifier,
+                    ["requestId"] = context.TraceIdentifier
+                }
+
             };
 
             var result = JsonSerializer.Serialize(problemDetails);
