@@ -84,3 +84,13 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Middlewares.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Middlewares.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Serilog.Exceptions.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\StackExchange.Redis.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Caching.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.MediatR.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Messaging.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.MediatR.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Messaging.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Caching.pdb

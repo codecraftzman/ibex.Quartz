@@ -5,8 +5,8 @@ using MediatR;
 using Microsoft.Extensions.Configuration;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
-using Quartz.Shared.Contracts.Events;
-using Quartz.Shared.Integration.Events.Image;
+using Quartz.Shared.Messaging.Events;
+using Quartz.Shared.Messaging.Events.Image;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,37 +20,13 @@ namespace Quartz.Services.ImageService.Application.Features.Images.Commands.Crea
         private readonly IMapper _mapper;
         private readonly IGalleryRepository _imageRepository;
         private readonly IBus _bus;
-        //private readonly IConfiguration _configuration;
-
-        //private readonly IMessageBusService _busService;
-
         public CreateImageCommandHandler(IMapper mapper, IGalleryRepository imageRepository, IBus bus)
         {
             _mapper = mapper;
             _imageRepository = imageRepository;
             _bus = bus;
-            //_configuration = configuration;
-            //_busService = busService;
         }
 
-
-        //public async Task<Unit> Handle(CreateImageCommand request, CancellationToken cancellationToken)
-        //{
-        //    var validator = new CreateImageCommandValidator();
-        //    var validationResult = await validator.ValidateAsync(request);
-
-        //    if (validationResult.Errors.Count > 0)
-        //    {
-
-        //    }
-        //    else
-        //    {
-        //        var image = new Image { FileName = request.FileName, Title = request.Title, OwnerId = request.OwnerId };
-        //        await _imageRepository.AddAsync(image);
-        //    }
-
-        //    return Unit.Value;
-        //}
 
         public async Task Handle(CreateImageCommand request, CancellationToken cancellationToken)
         {

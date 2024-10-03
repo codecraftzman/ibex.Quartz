@@ -52,3 +52,5 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Serilog.Sinks.File.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\System.Text.Json.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Quartz.Shared.Messaging.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageListener.Worker\bin\Debug\net8.0\Quartz.Shared.Messaging.pdb

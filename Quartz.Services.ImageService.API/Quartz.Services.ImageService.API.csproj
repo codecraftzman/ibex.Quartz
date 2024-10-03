@@ -24,6 +24,8 @@
     <ProjectReference Include="..\Quartz.Services.ImageService.Domain\Quartz.Services.ImageService.Domain.csproj" />
     <ProjectReference Include="..\Quartz.Services.ImageService.Infrastructure\Quartz.Services.ImageService.Infrastructure.csproj" />
     <ProjectReference Include="..\Quartz.Services.ImageService.Persistence\Quartz.Services.ImageService.Persistence.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.MediatR\Quartz.Shared.MediatR.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Messaging\Quartz.Shared.Messaging.csproj" />
     <ProjectReference Include="..\Quartz.Shared.Middlewares\Quartz.Shared.Middlewares.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,13 @@
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\bin\Debug\net8.0\Quartz.Shared.MediatR.deps.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\bin\Debug\net8.0\Quartz.Shared.MediatR.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\bin\Debug\net8.0\Quartz.Shared.MediatR.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.csproj.AssemblyReference.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.GeneratedMSBuildEditorConfig.editorconfig
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.AssemblyInfoInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.AssemblyInfo.cs
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.csproj.CoreCompileInputs.cache
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.sourcelink.json
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\refint\Quartz.Shared.MediatR.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\Quartz.Shared.MediatR.pdb
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.MediatR\obj\Debug\net8.0\ref\Quartz.Shared.MediatR.dll

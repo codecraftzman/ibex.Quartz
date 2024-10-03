@@ -1,13 +1,15 @@
-﻿namespace Quartz.Services.ImageListener.Worker
+﻿using EasyNetQ;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Quartz.Shared.Messaging.Events;
+using Quartz.Shared.Messaging.Events.Image;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace Quartz.Services.ImageListener.Worker
 {
-    using EasyNetQ;
-    using Microsoft.Extensions.Hosting;
-    using Microsoft.Extensions.Logging;
-    using Quartz.Shared.Contracts.Events;
-    using Quartz.Shared.Integration.Events.Image;
-    using System;
-    using System.Threading;
-    using System.Threading.Tasks;
+   
 
     public class ImageConsumerService : IHostedService
     {
@@ -20,26 +22,12 @@
         {
             _logger = logger;
             _bus = bus;
-            //_configuration = configuration;
-            //_messageBusService = messageBusService;
+            
         }
 
         public Task StartAsync(CancellationToken cancellationToken)
         {
             _logger.LogInformation("Image Consumer Service is starting.");
-
-            // Subscribe to the "image.local" topic
-            //_messageBusService.SubscribeAsync<ImageCreatedEvent>("imageConsumer", HandleImageCreatedEvent, "image.local");
-
-            //var connectionString = _configuration.GetSection("RabbitMQ").Get<RabbitMQConfig>()?.ConnectionString;
-            //using (var bus = RabbitHutch.CreateBus(connectionString))
-            //{
-            //    //bus.PubSub.SubscribeAsync<IMessage>("imageConsumer",  HandleImageCreatedEvent, cfg => cfg.WithTopic("image.local"));
-            //    bus.PubSub.SubscribeAsync<Message>("imageConsumer", HandleImageCreatedEvent);
-            //    Console.WriteLine("Listening for messages. Hit <return> to quit.");
-            //    Console.ReadLine();
-            //}
-
 
             _bus.PubSub.SubscribeAsync<IQuartzIntegrationEvent>("imageConsumer", HandleImageCreatedEvent, cfg => cfg.WithTopic("image.local"));
             return Task.CompletedTask;

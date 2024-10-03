@@ -12,6 +12,7 @@
           "Microsoft.Extensions.Hosting": "8.0.0",
           "Quartz.Shared.Contracts": "1.0.0",
           "Quartz.Shared.Integration": "1.0.0",
+          "Quartz.Shared.Messaging": "1.0.0",
           "Serilog": "4.0.1",
           "Serilog.AspNetCore": "8.0.2",
           "Serilog.Exceptions": "8.4.0",
@@ -608,6 +609,15 @@
         "runtime": {
           "Quartz.Shared.Integration.dll": {}
         }
+      },
+      "Quartz.Shared.Messaging/1.0.0": {
+        "dependencies": {
+          "EasyNetQ": "7.8.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+        },
+        "runtime": {
+          "Quartz.Shared.Messaging.dll": {}
+        }
       }
     }
   },
@@ -1113,6 +1123,11 @@
       "sha512": ""
     },
     "Quartz.Shared.Integration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Quartz.Shared.Messaging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

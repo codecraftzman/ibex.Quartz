@@ -16,6 +16,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Quartz.Services.ImageService.Domain\Quartz.Services.ImageService.Domain.csproj" />
     <ProjectReference Include="..\Quartz.Services.ImageService.Infrastructure\Quartz.Services.ImageService.Infrastructure.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Caching\Quartz.Shared.Caching.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Messaging\Quartz.Shared.Messaging.csproj" />
   </ItemGroup>
 
   <ItemGroup>

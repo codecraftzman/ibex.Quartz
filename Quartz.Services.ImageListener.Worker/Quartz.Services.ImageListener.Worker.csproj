@@ -19,5 +19,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Quartz.Shared.Contracts\Quartz.Shared.Contracts.csproj" />
     <ProjectReference Include="..\Quartz.Shared.Integration\Quartz.Shared.Integration.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Messaging\Quartz.Shared.Messaging.csproj" />
   </ItemGroup>
 </Project>

@@ -1,14 +1,16 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Quartz.Services.ImageService.Application;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Services.ImageService.Persistence;
-using Quartz.Services.ImageService.Infrastructure;
+//using Quartz.Services.ImageService.Infrastructure;
 using System.Security.Claims;
 using Serilog;
 using Quartz.Shared.Middlewares;
 using Serilog.Exceptions;
 using System.Diagnostics;
+using Quartz.Shared.MediatR;
+using System.Reflection;
+using Quartz.Shared.Messaging;
 
 namespace Quartz.Services.ImageService.API
 {
@@ -28,39 +30,15 @@ namespace Quartz.Services.ImageService.API
                 .WriteTo.Seq("http://localhost:5341");
 
             });
-            //builder.Services.AddProblemDetails(Services =>
-            //{
-            //    Services.CustomizeProblemDetails = (problemDetailsContext) =>
-            //    {
-            //        var httpContext = problemDetailsContext.HttpContext;
-            //        var traceId = httpContext.TraceIdentifier;
-            //        var requestId = Activity.Current?.Id ?? httpContext.TraceIdentifier;
 
-
-            //        if (problemDetailsContext.Exception is ArgumentException)
-            //        {
-            //            problemDetailsContext.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
-            //        }
-            //        else if (problemDetailsContext.Exception is UnauthorizedAccessException)
-            //        {
-            //            problemDetailsContext.HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
-            //        }
-            //        else
-            //        {
-            //            problemDetailsContext.HttpContext.Response.StatusCode = StatusCodes.Status500InternalServerError;
-            //        }
-            //        problemDetailsContext.ProblemDetails.Title = "An error occured while processing your request.";
-            //        problemDetailsContext.ProblemDetails.Detail = problemDetailsContext.Exception?.Message;
-            //        problemDetailsContext.ProblemDetails.Extensions["traceId"] = traceId;
-            //        problemDetailsContext.ProblemDetails.Extensions["requestId"] = requestId;
-
-            //    };
-            //});
+            //builder.Services.AddApplicationServices();
+            var assemblies = Assembly.Load("Quartz.Services.ImageService.Application");
+            builder.Services.AddMediatRServices(assemblies);
             
-            builder.Services.AddApplicationServices();
             builder.Services.AddPersistenceServices(builder.Configuration);
-            builder.Services.AddInfrastructureServices(builder.Configuration);
 
+            //builder.Services.AddInfrastructureServices(builder.Configuration);
+            builder.Services.AddMessagingServices(builder.Configuration);
             builder.Services.AddControllers();
             
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

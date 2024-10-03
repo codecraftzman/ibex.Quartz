@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Shared.Integration")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbac0f23508d3cdf4411f739a35cd83fa181844e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d06a706aedf9e1231760fc2537cabb8aba2e18ba")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Shared.Integration")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Shared.Integration")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
