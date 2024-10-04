@@ -1,11 +1,11 @@
-﻿using Quartz.Shared.Integration.Contracts;
+﻿using Quartz.Shared.Database.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quartz.Shared.Integration.Repositories
+namespace Quartz.Shared.Database.Repositories
 {
     public class QuartzDbSettings : IDbSettings
     {

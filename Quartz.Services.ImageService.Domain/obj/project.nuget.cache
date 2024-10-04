@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LKwy48VFBIObba+VSeBIQvQAnB7xzJIVQzCJwlMa5IUq4+cnPIS0l2yIS/qlUMmEUPMC5kXpOkFxcdjUwLn2Fg==",
+  "dgSpecHash": "zcg/4mwaqnoYtKQesfJScVnWKbpROwbXwPhwV+Suw0KA7uWV/CUscDOvkqoU/UKh6RRB9Q7PNBriA/OSUVlvEw==",
   "success": true,
   "projectFilePath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.Domain\\Quartz.Services.ImageService.Domain.csproj",
   "expectedPackageFiles": [
@@ -12,11 +12,14 @@
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

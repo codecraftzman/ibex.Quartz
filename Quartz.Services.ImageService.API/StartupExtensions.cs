@@ -12,6 +12,7 @@ using Quartz.Shared.MediatR;
 using System.Reflection;
 using Quartz.Shared.Messaging;
 using Quartz.Shared.Caching;
+using Quartz.Shared.Database;
 
 namespace Quartz.Services.ImageService.API
 {
@@ -35,7 +36,8 @@ namespace Quartz.Services.ImageService.API
             //builder.Services.AddApplicationServices();
             var assemblies = Assembly.Load("Quartz.Services.ImageService.Application");
             builder.Services.AddMediatRServices(assemblies);
-            
+
+            builder.Services.AddDatabaseServices(builder.Configuration);
             builder.Services.AddPersistenceServices(builder.Configuration);
 
             //builder.Services.AddInfrastructureServices(builder.Configuration);

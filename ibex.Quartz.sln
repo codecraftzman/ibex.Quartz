@@ -53,9 +53,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Services.ImageListen
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{72B158E7-BEAC-4A74-AC7A-11572D8639B6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{1F684AF2-FFC5-4665-B752-50E568D3254C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{1F684AF2-FFC5-4665-B752-50E568D3254C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Shared.Integration", "Quartz.Shared.Integration\Quartz.Shared.Integration.csproj", "{3A67F1C5-5FB5-412A-874B-272F3ED852D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Shared.Database", "Quartz.Shared.Integration\Quartz.Shared.Database.csproj", "{3A67F1C5-5FB5-412A-874B-272F3ED852D2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quartz.Gateway.Web.Api", "Quartz.Gateway.Web.Api\Quartz.Gateway.Web.Api.csproj", "{7215FA1A-3B44-4542-8A46-644F32114DCF}"
 EndProject

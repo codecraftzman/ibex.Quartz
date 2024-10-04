@@ -129,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
-                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj"
+              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj": {
+                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj"
               }
             }
           }
@@ -198,8 +198,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
-                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj"
+              "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj": {
+                "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj"
               },
               "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Messaging\\Quartz.Shared.Messaging.csproj": {
                 "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Messaging\\Quartz.Shared.Messaging.csproj"
@@ -417,12 +417,12 @@
         }
       }
     },
-    "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
+    "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj",
-        "projectName": "Quartz.Shared.Integration",
-        "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj",
+        "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj",
+        "projectName": "Quartz.Shared.Database",
+        "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj",
         "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
         "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\obj\\",
         "projectStyle": "PackageReference",
@@ -466,6 +466,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "MongoDB.Driver": {
               "target": "Package",

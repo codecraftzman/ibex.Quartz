@@ -843,7 +843,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Quartz.Shared.Integration": "1.0.0"
+          "Quartz.Shared.Database": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Quartz.Services.ImageService.Domain.dll": {}
@@ -858,7 +858,7 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
-          "Quartz.Shared.Integration": "1.0.0",
+          "Quartz.Shared.Database": "1.0.0",
           "Quartz.Shared.Messaging": "1.0.0"
         },
         "compile": {
@@ -883,18 +883,19 @@
           "bin/placeholder/Quartz.Shared.Caching.dll": {}
         }
       },
-      "Quartz.Shared.Integration/1.0.0": {
+      "Quartz.Shared.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
           "MongoDB.Driver": "2.27.0"
         },
         "compile": {
-          "bin/placeholder/Quartz.Shared.Integration.dll": {}
+          "bin/placeholder/Quartz.Shared.Database.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Quartz.Shared.Integration.dll": {}
+          "bin/placeholder/Quartz.Shared.Database.dll": {}
         }
       },
       "Quartz.Shared.Messaging/1.0.0": {
@@ -2223,10 +2224,10 @@
       "path": "../Quartz.Shared.Caching/Quartz.Shared.Caching.csproj",
       "msbuildProject": "../Quartz.Shared.Caching/Quartz.Shared.Caching.csproj"
     },
-    "Quartz.Shared.Integration/1.0.0": {
+    "Quartz.Shared.Database/1.0.0": {
       "type": "project",
-      "path": "../Quartz.Shared.Integration/Quartz.Shared.Integration.csproj",
-      "msbuildProject": "../Quartz.Shared.Integration/Quartz.Shared.Integration.csproj"
+      "path": "../Quartz.Shared.Integration/Quartz.Shared.Database.csproj",
+      "msbuildProject": "../Quartz.Shared.Integration/Quartz.Shared.Database.csproj"
     },
     "Quartz.Shared.Messaging/1.0.0": {
       "type": "project",

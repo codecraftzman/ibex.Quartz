@@ -1,5 +1,5 @@
 ﻿using Quartz.Services.ImageService.Domain.Entities;
-using Quartz.Shared.Integration.Contracts;
+using Quartz.Shared.Database.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

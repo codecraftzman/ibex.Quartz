@@ -36,12 +36,10 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Domain.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Infrastructure.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Persistence.dll
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Integration.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Application.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Domain.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Infrastructure.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Services.ImageService.Persistence.pdb
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Integration.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\obj\Debug\net8.0\Quartz.Services.ImageService.API.csproj.AssemblyReference.cache
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\obj\Debug\net8.0\Quartz.Services.ImageService.API.GeneratedMSBuildEditorConfig.editorconfig
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\obj\Debug\net8.0\Quartz.Services.ImageService.API.AssemblyInfoInputs.cache
@@ -93,3 +91,5 @@ D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Caching.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\EasyNetQ.Serialization.SystemTextJson.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Database.dll
+D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Services.ImageService.API\bin\Debug\net8.0\Quartz.Shared.Database.pdb

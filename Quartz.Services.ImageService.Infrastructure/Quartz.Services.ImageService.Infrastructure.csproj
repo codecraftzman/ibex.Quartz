@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Quartz.Shared.Integration\Quartz.Shared.Integration.csproj" />
+    <ProjectReference Include="..\Quartz.Shared.Integration\Quartz.Shared.Database.csproj" />
     <ProjectReference Include="..\Quartz.Shared.Messaging\Quartz.Shared.Messaging.csproj" />
   </ItemGroup>
 

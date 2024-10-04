@@ -665,18 +665,19 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
-      "Quartz.Shared.Integration/1.0.0": {
+      "Quartz.Shared.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
           "MongoDB.Driver": "2.27.0"
         },
         "compile": {
-          "bin/placeholder/Quartz.Shared.Integration.dll": {}
+          "bin/placeholder/Quartz.Shared.Database.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Quartz.Shared.Integration.dll": {}
+          "bin/placeholder/Quartz.Shared.Database.dll": {}
         }
       },
       "Quartz.Shared.Messaging/1.0.0": {
@@ -1795,10 +1796,10 @@
         "zstdsharp.port.nuspec"
       ]
     },
-    "Quartz.Shared.Integration/1.0.0": {
+    "Quartz.Shared.Database/1.0.0": {
       "type": "project",
-      "path": "../Quartz.Shared.Integration/Quartz.Shared.Integration.csproj",
-      "msbuildProject": "../Quartz.Shared.Integration/Quartz.Shared.Integration.csproj"
+      "path": "../Quartz.Shared.Integration/Quartz.Shared.Database.csproj",
+      "msbuildProject": "../Quartz.Shared.Integration/Quartz.Shared.Database.csproj"
     },
     "Quartz.Shared.Messaging/1.0.0": {
       "type": "project",
@@ -1810,7 +1811,7 @@
     "net8.0": [
       "EasyNetQ >= 7.8.0",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 8.0.0",
-      "Quartz.Shared.Integration >= 1.0.0",
+      "Quartz.Shared.Database >= 1.0.0",
       "Quartz.Shared.Messaging >= 1.0.0"
     ]
   },
@@ -1847,8 +1848,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj": {
-              "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Integration.csproj"
+            "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj": {
+              "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj"
             },
             "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Messaging\\Quartz.Shared.Messaging.csproj": {
               "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Messaging\\Quartz.Shared.Messaging.csproj"

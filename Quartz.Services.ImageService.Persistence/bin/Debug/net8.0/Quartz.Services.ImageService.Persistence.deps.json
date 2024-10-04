@@ -488,7 +488,7 @@
       },
       "Quartz.Services.ImageService.Domain/1.0.0": {
         "dependencies": {
-          "Quartz.Shared.Integration": "1.0.0"
+          "Quartz.Shared.Database": "1.0.0"
         },
         "runtime": {
           "Quartz.Services.ImageService.Domain.dll": {}
@@ -498,7 +498,7 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
-          "Quartz.Shared.Integration": "1.0.0",
+          "Quartz.Shared.Database": "1.0.0",
           "Quartz.Shared.Messaging": "1.0.0"
         },
         "runtime": {
@@ -515,13 +515,14 @@
           "Quartz.Shared.Caching.dll": {}
         }
       },
-      "Quartz.Shared.Integration/1.0.0": {
+      "Quartz.Shared.Database/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.6",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
           "MongoDB.Driver": "2.27.0"
         },
         "runtime": {
-          "Quartz.Shared.Integration.dll": {}
+          "Quartz.Shared.Database.dll": {}
         }
       },
       "Quartz.Shared.Messaging/1.0.0": {
@@ -899,7 +900,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Quartz.Shared.Integration/1.0.0": {
+    "Quartz.Shared.Database/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

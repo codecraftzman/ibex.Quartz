@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quartz.Shared.Integration.Contracts
+namespace Quartz.Shared.Database.Contracts
 {
     public interface IDbSettings
     {

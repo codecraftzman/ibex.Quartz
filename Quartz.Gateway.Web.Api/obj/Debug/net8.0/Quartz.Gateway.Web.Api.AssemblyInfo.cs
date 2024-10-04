@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Gateway.Web.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8da27706651f79a44890799d35375bf68299094")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34f883f3116d3d75586f653312d2c2796996e6ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Gateway.Web.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Gateway.Web.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

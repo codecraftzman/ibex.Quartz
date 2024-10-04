@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Shared.Caching;
-using Quartz.Shared.Integration.Contracts;
+using Quartz.Shared.Database.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,8 +1,8 @@
 ﻿using MongoDB.Driver;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
-using Quartz.Shared.Integration.Contracts;
-using Quartz.Shared.Integration.Repositories;
+using Quartz.Shared.Database.Repositories;
+using Quartz.Shared.Database.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

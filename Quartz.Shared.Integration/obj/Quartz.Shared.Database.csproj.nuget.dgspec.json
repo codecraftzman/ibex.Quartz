@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj": {}
+  },
+  "projects": {
+    "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj",
+        "projectName": "Quartz.Shared.Database",
+        "projectPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\Quartz.Shared.Database.csproj",
+        "packagesPath": "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\",
+        "outputPath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Shared.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mtsheikh.CORP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
