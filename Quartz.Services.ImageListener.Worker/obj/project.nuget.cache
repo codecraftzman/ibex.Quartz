@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vpwVadnFrN15uFzOeU+Eq4qPya9NgCJiBNPPUYO8iMpdQ1aOHgVp/2/dt6+lxs8ju7ktIR8gmXPgE2eiIM2hsg==",
+  "dgSpecHash": "+OZfe7nnYc8COiGXAjPw5k0TNTYMJgf9eM++itjrMiLaHZi4II6tetHxU0l8KINSiCqBHtO2d6YgxQo2fez4gA==",
   "success": true,
   "projectFilePath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageListener.Worker\\Quartz.Services.ImageListener.Worker.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\easynetq\\7.8.0\\easynetq.7.8.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\easynetq.serialization.systemtextjson\\7.8.0\\easynetq.serialization.systemtextjson.7.8.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.6\\microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",

@@ -10,7 +10,7 @@ using MongoDB.EntityFrameworkCore;
 using MongoDB.EntityFrameworkCore.Extensions;
 using MongoDB.Driver;
 using MongoDB.EntityFrameworkCore.Infrastructure;
-using Quartz.Shared.Contracts.Repositories;
+using Quartz.Shared.Integration.Contracts;
 
 namespace Quartz.Services.ImageService.Persistence
 {

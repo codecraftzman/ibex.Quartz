@@ -79,6 +79,23 @@
           }
         }
       },
+      "EasyNetQ.Serialization.SystemTextJson/7.8.0": {
+        "type": "package",
+        "dependencies": {
+          "EasyNetQ": "7.8.0",
+          "System.Text.Json": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "FluentValidation/11.9.2": {
         "type": "package",
         "compile": {
@@ -1545,7 +1562,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Quartz.Shared.Contracts": "1.0.0",
           "Quartz.Shared.Integration": "1.0.0"
         },
         "compile": {
@@ -1561,8 +1577,8 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
-          "Quartz.Shared.Contracts": "1.0.0",
-          "Quartz.Shared.Integration": "1.0.0"
+          "Quartz.Shared.Integration": "1.0.0",
+          "Quartz.Shared.Messaging": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Quartz.Services.ImageService.Infrastructure.dll": {}
@@ -1603,27 +1619,12 @@
           "bin/placeholder/Quartz.Shared.Caching.dll": {}
         }
       },
-      "Quartz.Shared.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "EasyNetQ": "7.8.0",
-          "Microsoft.EntityFrameworkCore": "8.0.6",
-          "MongoDB.Driver": "2.27.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Quartz.Shared.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Quartz.Shared.Contracts.dll": {}
-        }
-      },
       "Quartz.Shared.Integration/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Quartz.Shared.Contracts": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "MongoDB.Driver": "2.27.0"
         },
         "compile": {
           "bin/placeholder/Quartz.Shared.Integration.dll": {}
@@ -1651,7 +1652,9 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "EasyNetQ": "7.8.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+          "EasyNetQ.Serialization.SystemTextJson": "7.8.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
           "bin/placeholder/Quartz.Shared.Messaging.dll": {}
@@ -1782,6 +1785,22 @@
         "lib/netstandard2.0/EasyNetQ.dll",
         "lib/netstandard2.0/EasyNetQ.pdb",
         "lib/netstandard2.0/EasyNetQ.xml",
+        "licence.txt"
+      ]
+    },
+    "EasyNetQ.Serialization.SystemTextJson/7.8.0": {
+      "sha512": "hAzUKjEWhzLL/nC/qH1y5MPgQvivnp28wmnD7Q4bvOnG0+YceTnu0QYfWo2mtYs6Y9IGNy2hWtb1636/ooKgBg==",
+      "type": "package",
+      "path": "easynetq.serialization.systemtextjson/7.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EasyNetQ.png",
+        "easynetq.serialization.systemtextjson.7.8.0.nupkg.sha512",
+        "easynetq.serialization.systemtextjson.nuspec",
+        "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.dll",
+        "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.pdb",
+        "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.xml",
         "licence.txt"
       ]
     },
@@ -4187,11 +4206,6 @@
       "type": "project",
       "path": "../Quartz.Shared.Caching/Quartz.Shared.Caching.csproj",
       "msbuildProject": "../Quartz.Shared.Caching/Quartz.Shared.Caching.csproj"
-    },
-    "Quartz.Shared.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Quartz.Shared.Contracts/Quartz.Shared.Contracts.csproj",
-      "msbuildProject": "../Quartz.Shared.Contracts/Quartz.Shared.Contracts.csproj"
     },
     "Quartz.Shared.Integration/1.0.0": {
       "type": "project",

@@ -4,6 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Quartz.Shared; // Ensure this using directive is correct based on your project structure
 using System;
 using EasyNetQ.DI;
+using EasyNetQ.Serialization.SystemTextJson;
+//using EasyNetQ.Serialization.SystemTextJson;
 
 namespace Quartz.Shared.Messaging
 {
@@ -21,7 +23,8 @@ namespace Quartz.Shared.Messaging
             }
 
             // Register MessageBusService with the extracted configuration
-            services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQConfig.ConnectionString));
+            services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQConfig.ConnectionString, x => x.Register<ISerializer, SystemTextJsonSerializer>()));
+            //services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(rabbitMQConfig.ConnectionString));
 
             return services;
         }

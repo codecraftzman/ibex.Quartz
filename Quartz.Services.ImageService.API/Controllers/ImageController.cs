@@ -37,7 +37,7 @@ namespace Quartz.Services.ImageService.API.Controllers
 
         // POST: api/<ImageController>
         [HttpPut(Name = "UpdateImage")]
-        public async Task<ActionResult> UpdateImage(string val)
+        public Task<ActionResult> UpdateImage(string val)
         {
             throw new ArgumentException("Not implemented for the given argument");
         }

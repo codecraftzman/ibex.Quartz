@@ -10,8 +10,8 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
-          "Quartz.Shared.Contracts": "1.0.0",
-          "Quartz.Shared.Integration": "1.0.0"
+          "Quartz.Shared.Integration": "1.0.0",
+          "Quartz.Shared.Messaging": "1.0.0"
         },
         "runtime": {
           "Quartz.Services.ImageService.Infrastructure.dll": {}
@@ -53,6 +53,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/EasyNetQ.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.8.0.0"
+          }
+        }
+      },
+      "EasyNetQ.Serialization.SystemTextJson/7.8.0": {
+        "dependencies": {
+          "EasyNetQ": "7.8.0",
+          "System.Text.Json": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.8.0.0"
           }
@@ -217,7 +229,7 @@
       "MongoDB.Bson/2.27.0": {
         "dependencies": {
           "System.Memory": "4.5.5",
-          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/MongoDB.Bson.dll": {
@@ -322,7 +334,7 @@
       },
       "System.Buffers/4.5.1": {},
       "System.Memory/4.5.5": {},
-      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Security.AccessControl/5.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -330,6 +342,17 @@
         }
       },
       "System.Security.Principal.Windows/5.0.0": {},
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        }
+      },
       "System.Threading.Channels/7.0.0": {},
       "ZstdSharp.Port/0.7.3": {
         "runtime": {
@@ -339,23 +362,24 @@
           }
         }
       },
-      "Quartz.Shared.Contracts/1.0.0": {
-        "dependencies": {
-          "EasyNetQ": "7.8.0",
-          "Microsoft.EntityFrameworkCore": "8.0.6",
-          "MongoDB.Driver": "2.27.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "Quartz.Shared.Contracts.dll": {}
-        }
-      },
       "Quartz.Shared.Integration/1.0.0": {
         "dependencies": {
-          "Quartz.Shared.Contracts": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "MongoDB.Driver": "2.27.0"
         },
         "runtime": {
           "Quartz.Shared.Integration.dll": {}
+        }
+      },
+      "Quartz.Shared.Messaging/1.0.0": {
+        "dependencies": {
+          "EasyNetQ": "7.8.0",
+          "EasyNetQ.Serialization.SystemTextJson": "7.8.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "Quartz.Shared.Messaging.dll": {}
         }
       }
     }
@@ -393,6 +417,13 @@
       "sha512": "sha512-Qo+OoVkQMsN/LU/0QtKZF+bt8W0G5gd3OUibxluWQhWA2bqmapS9R+Hvb3hpQ5JV+TaiJyxM43ZkmnhOLm9r0g==",
       "path": "easynetq/7.8.0",
       "hashPath": "easynetq.7.8.0.nupkg.sha512"
+    },
+    "EasyNetQ.Serialization.SystemTextJson/7.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hAzUKjEWhzLL/nC/qH1y5MPgQvivnp28wmnD7Q4bvOnG0+YceTnu0QYfWo2mtYs6Y9IGNy2hWtb1636/ooKgBg==",
+      "path": "easynetq.serialization.systemtextjson/7.8.0",
+      "hashPath": "easynetq.serialization.systemtextjson.7.8.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.6": {
       "type": "package",
@@ -576,12 +607,12 @@
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
-      "path": "system.runtime.compilerservices.unsafe/5.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
     "System.Security.AccessControl/5.0.0": {
       "type": "package",
@@ -597,6 +628,20 @@
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
     },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zaJsHfESQvJ11vbXnNlkrR46IaMULk/gHxYsJphzSF+07kTjPHv+Oc14w6QEOfo3Q4hqLJgStUaYB9DBl0TmWg==",
+      "path": "system.text.json/6.0.0",
+      "hashPath": "system.text.json.6.0.0.nupkg.sha512"
+    },
     "System.Threading.Channels/7.0.0": {
       "type": "package",
       "serviceable": true,
@@ -611,12 +656,12 @@
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
-    "Quartz.Shared.Contracts/1.0.0": {
+    "Quartz.Shared.Integration/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Quartz.Shared.Integration/1.0.0": {
+    "Quartz.Shared.Messaging/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,15 +1,12 @@
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\bin\Debug\net8.0\Quartz.Shared.Integration.deps.json
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\bin\Debug\net8.0\Quartz.Shared.Integration.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\bin\Debug\net8.0\Quartz.Shared.Integration.pdb
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\bin\Debug\net8.0\Quartz.Shared.Contracts.dll
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\bin\Debug\net8.0\Quartz.Shared.Contracts.pdb
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.csproj.AssemblyReference.cache
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.GeneratedMSBuildEditorConfig.editorconfig
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.AssemblyInfoInputs.cache
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.AssemblyInfo.cs
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.csproj.CoreCompileInputs.cache
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.sourcelink.json
-D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.S.4DE0B924.Up2Date
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\refint\Quartz.Shared.Integration.dll
 D:\1. Ibex Connect\Quartz\Code\ibex.Quartz\Quartz.Shared.Integration\obj\Debug\net8.0\Quartz.Shared.Integration.pdb

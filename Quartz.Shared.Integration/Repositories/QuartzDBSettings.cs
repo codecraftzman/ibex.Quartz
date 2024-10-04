@@ -1,4 +1,4 @@
-﻿using Quartz.Shared.Contracts.Repositories;
+﻿using Quartz.Shared.Integration.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;

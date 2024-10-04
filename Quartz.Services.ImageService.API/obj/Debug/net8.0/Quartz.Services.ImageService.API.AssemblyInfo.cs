@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quartz.Services.ImageService.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d06a706aedf9e1231760fc2537cabb8aba2e18ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8da27706651f79a44890799d35375bf68299094")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quartz.Services.ImageService.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quartz.Services.ImageService.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

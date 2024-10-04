@@ -10,7 +10,6 @@
         "dependencies": {
           "EasyNetQ": "7.8.0",
           "Microsoft.Extensions.Hosting": "8.0.0",
-          "Quartz.Shared.Contracts": "1.0.0",
           "Quartz.Shared.Integration": "1.0.0",
           "Quartz.Shared.Messaging": "1.0.0",
           "Serilog": "4.0.1",
@@ -58,6 +57,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/EasyNetQ.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.8.0.0"
+          }
+        }
+      },
+      "EasyNetQ.Serialization.SystemTextJson/7.8.0": {
+        "dependencies": {
+          "EasyNetQ": "7.8.0",
+          "System.Text.Json": "8.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EasyNetQ.Serialization.SystemTextJson.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.8.0.0"
           }
@@ -591,20 +602,10 @@
           }
         }
       },
-      "Quartz.Shared.Contracts/1.0.0": {
-        "dependencies": {
-          "EasyNetQ": "7.8.0",
-          "Microsoft.EntityFrameworkCore": "8.0.6",
-          "MongoDB.Driver": "2.27.0",
-          "Newtonsoft.Json": "13.0.3"
-        },
-        "runtime": {
-          "Quartz.Shared.Contracts.dll": {}
-        }
-      },
       "Quartz.Shared.Integration/1.0.0": {
         "dependencies": {
-          "Quartz.Shared.Contracts": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "8.0.6",
+          "MongoDB.Driver": "2.27.0"
         },
         "runtime": {
           "Quartz.Shared.Integration.dll": {}
@@ -613,7 +614,9 @@
       "Quartz.Shared.Messaging/1.0.0": {
         "dependencies": {
           "EasyNetQ": "7.8.0",
-          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0"
+          "EasyNetQ.Serialization.SystemTextJson": "7.8.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+          "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
           "Quartz.Shared.Messaging.dll": {}
@@ -654,6 +657,13 @@
       "sha512": "sha512-Qo+OoVkQMsN/LU/0QtKZF+bt8W0G5gd3OUibxluWQhWA2bqmapS9R+Hvb3hpQ5JV+TaiJyxM43ZkmnhOLm9r0g==",
       "path": "easynetq/7.8.0",
       "hashPath": "easynetq.7.8.0.nupkg.sha512"
+    },
+    "EasyNetQ.Serialization.SystemTextJson/7.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hAzUKjEWhzLL/nC/qH1y5MPgQvivnp28wmnD7Q4bvOnG0+YceTnu0QYfWo2mtYs6Y9IGNy2hWtb1636/ooKgBg==",
+      "path": "easynetq.serialization.systemtextjson/7.8.0",
+      "hashPath": "easynetq.serialization.systemtextjson.7.8.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/8.0.6": {
       "type": "package",
@@ -1116,11 +1126,6 @@
       "sha512": "sha512-U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
       "path": "zstdsharp.port/0.7.3",
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
-    },
-    "Quartz.Shared.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Quartz.Shared.Integration/1.0.0": {
       "type": "project",

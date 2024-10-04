@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ynnX/ewSajvf29mfkzNXzpMntZCVfrgSBsEF/RPqGhNnNs82nR7onGfbbm40Qg4IjtZfqmZiWhZpFqsijDtzrw==",
+  "dgSpecHash": "mw8NeM7rRt0+dkEkLX/ruvH7t7GgS8FbbTQnYxyCmIyZEQK/qOd+v5Dr2ZUijL2K48wx7AkTL/KdX63sUk9OYw==",
   "success": true,
   "projectFilePath": "D:\\1. Ibex Connect\\Quartz\\Code\\ibex.Quartz\\Quartz.Services.ImageService.API\\Quartz.Services.ImageService.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\easynetq\\7.8.0\\easynetq.7.8.0.nupkg.sha512",
+    "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\easynetq.serialization.systemtextjson\\7.8.0\\easynetq.serialization.systemtextjson.7.8.0.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\mtsheikh.CORP\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",

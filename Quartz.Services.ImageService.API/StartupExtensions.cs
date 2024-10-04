@@ -11,6 +11,7 @@ using System.Diagnostics;
 using Quartz.Shared.MediatR;
 using System.Reflection;
 using Quartz.Shared.Messaging;
+using Quartz.Shared.Caching;
 
 namespace Quartz.Services.ImageService.API
 {
@@ -39,6 +40,9 @@ namespace Quartz.Services.ImageService.API
 
             //builder.Services.AddInfrastructureServices(builder.Configuration);
             builder.Services.AddMessagingServices(builder.Configuration);
+
+            builder.Services.AddCachingServices(builder.Configuration);
+
             builder.Services.AddControllers();
             
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -5,7 +5,7 @@ using MongoDB.Driver;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Persistence.Configurations;
 using Quartz.Services.ImageService.Persistence.Repositories;
-using Quartz.Shared.Contracts.Repositories;
+using Quartz.Shared.Integration.Contracts;
 using Quartz.Shared.Integration.Repositories;
 using System;
 using System.Collections.Generic;

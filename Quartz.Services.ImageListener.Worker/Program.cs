@@ -1,18 +1,22 @@
 using EasyNetQ;
 using Serilog;
 using Quartz.Services.ImageListener.Worker;
-using Quartz.Shared.Contracts;
-using Quartz.Shared.Integration.Events;
 using Serilog.Exceptions;
-
+using Quartz.Shared.Messaging;
 
 var builder = Host.CreateDefaultBuilder(args)
     .ConfigureServices((context, services) =>
-    {
-        services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(context.Configuration.GetSection("RabbitMQ")
-            .Get<RabbitMQConfig>()!.ConnectionString));
+    { 
+        services.AddMessagingServices(context.Configuration);
         services.AddHostedService<ImageConsumerService>();
     })
+    //var builder = Host.CreateDefaultBuilder(args)
+    //.ConfigureServices((context, services) =>
+    //{
+    //    services.AddSingleton<IBus>(_ => RabbitHutch.CreateBus(context.Configuration.GetSection("RabbitMQ")
+    //        .Get<RabbitMQConfig>()!.ConnectionString));
+    //    services.AddHostedService<ImageConsumerService>();
+    //})
     .UseSerilog((context, loggerConfig) =>
     {
         loggerConfig.WriteTo.Console()

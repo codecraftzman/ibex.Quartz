@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MongoDB.Driver;
-using Quartz.Shared.Contracts.Repositories;
+using Quartz.Shared.Integration.Contracts;
 using SharpCompress.Common;
 using System;
 using System.Collections.Generic;

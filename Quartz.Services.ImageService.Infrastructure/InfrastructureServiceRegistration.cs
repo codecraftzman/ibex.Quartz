@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Quartz.Shared; // Ensure this using directive is correct based on your project structure
 using System;
 using EasyNetQ.DI;
-using Quartz.Shared.Integration.Events;
+using Quartz.Shared.Messaging;
 
 namespace Quartz.Services.ImageService.Infrastructure
 {

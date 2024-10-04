@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging;
 using Quartz.Services.ImageService.Application.Contracts.Persistence;
 using Quartz.Services.ImageService.Domain.Entities;
 using Quartz.Shared.Caching;
-using Quartz.Shared.Contracts;
+using Quartz.Shared.Integration.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +21,7 @@ namespace Quartz.Services.ImageService.Application.Features.Images.Queries.GetIm
         private readonly ICacheService _cacheService;
         private readonly ILogger<GetImageListQueryHandler> _logger;
 
+        //public GetImageListQueryHandler(IMapper mapper, IGalleryRepository repository, ICacheService cacheService, ILogger<GetImageListQueryHandler> logger)
         public GetImageListQueryHandler(IMapper mapper, IGalleryRepository repository, ICacheService cacheService, ILogger<GetImageListQueryHandler> logger)
         {
             _mapper = mapper;
